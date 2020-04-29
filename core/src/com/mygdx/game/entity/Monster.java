@@ -49,7 +49,6 @@ public class Monster implements Entita {
             }
         }else{
             timer -= dt;
-            int[] f[] = new int [5][5];
             if (timer<0.0f){
             timer = MathUtils.random(1.0f,3.0f);
             direction.set(MathUtils.random(-1.0f,1.0f),MathUtils.random(-1.0f,1.0f));
